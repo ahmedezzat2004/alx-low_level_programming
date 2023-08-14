@@ -2,17 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * 
  * main - start main
  *
  * Description: check if number is negative or positive or zero
  *
  * Return: 0 (success)
 */
-
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
