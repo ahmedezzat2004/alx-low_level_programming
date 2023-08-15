@@ -10,11 +10,7 @@ int main(void)
 	int a;
 
 	for (a = 'z'; a >= 'a'; a--)
-	{
-		if (a == 'q' || a == 'e')
-			continue;
 		putchar(a);
-	}
 	putchar('\n');
 	return (0);
 }
